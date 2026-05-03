@@ -3,7 +3,7 @@
 Bu proje, büyük bir veri seti içerisindeki "özel" elemanları (belirli bir koşulu sağlayan sayılar) tespit etmek amacıyla geliştirilen **Monte Carlo** randomize algoritmasının deneysel bir ispatıdır. Çalışma kapsamında rastgeleliğin algoritma doğruluğu (hata payı) ve çalışma süresi (standart sapma) üzerindeki etkileri analiz edilmiştir.
 
 ## 📋 Ödev Parametreleri
-Ödev gereksinimleri ve öğrenci numarası (**1240505044**) doğrultusunda belirlenen kriterler:
+Ödev gereksinimleri ve öğrenci numarası (**________44**) doğrultusunda belirlenen kriterler:
 
 - **Algoritma Tipi:** Monte Carlo Yaklaşımı (Öğrenci no son rakamı çift: 4)
 - **Veri Hacmi (n):** 100.000 ($10^5$) (Öğrenci no son rakamı < 5)
