@@ -13,7 +13,7 @@ Bu proje, büyük bir veri seti içerisindeki "özel" elemanları (belirli bir k
 
 ## 🚀 Algoritma Hakkında
 ### Monte Carlo Yaklaşımı
-Monte Carlo algoritmaları, önceden belirlenmiş sabit bir iterasyon sayısında ($k$) çalışır. Bu durum algoritmanın çalışma süresini öngörülebilir ve sabit kılar ($O(k)$). Ancak, algoritma tüm veri setini taramadığı için sonucu bulamama (yanlış negatif) ihtimalini, yani istatistiksel bir hata payını göze alır.
+Monte Carlo algoritmaları, önceden belirlenmiş sabit bir iterasyon sayısında ($k$) çalışır. Bu durum algoritmanın çalışma süresini öngörülebilir ve sabit kılar (O(k)). Ancak, algoritma tüm veri setini taramadığı için sonucu bulamama (False Negative) ihtimalini, yani istatistiksel bir hata payını göze alır.
 
 ### Las Vegas Algoritması ile Farkı
 Las Vegas algoritmaları sonucu her zaman %100 doğru bulur ancak çalışma süresi şansa bağlı olarak değişkendir. Bu projede kullanılan Monte Carlo yöntemiyle, rastgeleliğin çalışma süresini değil, başarı olasılığını etkilediği deneysel olarak kanıtlanmıştır.
@@ -32,7 +32,7 @@ Proje Java programlama dili ile geliştirilmiştir.
 
 1. Depoyu klonlayın:
    ```bash
-   git clone https://github.com/kullaniciadi/Randomize-Algoritmalar-Monte-Carlo-Analizi.git
+   git clone https://github.com/Feyza-swe/Randomize-Algoritmalar-Monte-Carlo-Analizi.git
 
 2.  Terminal veya komut satırı üzerinden derleyin:
     javac Main.java
